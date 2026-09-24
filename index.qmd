@@ -10,20 +10,9 @@ format:
     progress: false
 ---
 
-## Immersion
-
-``` {.r code-line-numbers="1|3|5-6"}
-learner <- you
-
-immerse(learner)
-
-understand(everything)
-# Error: object 'everything' not found
-```
-
 ## Listen
 
-``` {.r code-line-numbers="1|3|5"}
+```{.r}
 hear("gin khao?")
 
 literal_meaning <- "Have you eaten?"
@@ -31,11 +20,11 @@ literal_meaning <- "Have you eaten?"
 meaning <- connection
 ```
 
-------------------------------------------------------------------------
+---
 
 ## Translate
 
-``` {.r code-line-numbers="1|3-6|8"}
+```{.r}
 translate("mai pen rai")
 
 # "no problem"
@@ -46,11 +35,11 @@ translate("mai pen rai")
 understand("mai pen rai")
 ```
 
-------------------------------------------------------------------------
+---
 
 ## Speak
 
-``` {.r code-line-numbers="1-7|3|4|5|6"}
+```{.r}
 while (!fluent) {
 
   speak()
@@ -61,11 +50,11 @@ while (!fluent) {
 }
 ```
 
-------------------------------------------------------------------------
+---
 
 ## Notice
 
-``` {.r code-line-numbers="1|3|5"}
+```{.r}
 sobremesa <- "time together at the table after a meal"
 
 describe_in_english(sobremesa)
@@ -73,11 +62,11 @@ describe_in_english(sobremesa)
 name_in_spanish(sobremesa)
 ```
 
-------------------------------------------------------------------------
+---
 
 ## See Differently
 
-``` {.r code-line-numbers="1|3|5-6"}
+```{.r}
 english <- "I forgot it."
 
 spanish <- "Se me olvidó."
@@ -86,22 +75,22 @@ spanish <- "Se me olvidó."
 # Differently structured.
 ```
 
-------------------------------------------------------------------------
+---
 
 ## A New Language
 
-``` {.r code-line-numbers="1|2|3|4"}
+```{.r}
 translate("repository")
 translate("commit")
 translate("relative path")
 translate("function")
 ```
 
-------------------------------------------------------------------------
+---
 
 ## Practice
 
-``` {.r code-line-numbers="1-6|2|3|4|5"}
+```{.r}
 repeat {
 
   try()
@@ -112,21 +101,35 @@ repeat {
 }
 ```
 
-------------------------------------------------------------------------
+---
 
 ## Eventually...
 
-``` {.r code-line-numbers="1|3"}
+```{.r}
 # You stop translating.
 
 think_in_reproducibility()
 ```
 
-------------------------------------------------------------------------
+---
+
+## Notice Differently
+
+```{.r}
+notice("I'm doing this manually.")
+
+notice("I should document this.")
+
+notice("Someone else should be able to reproduce this.")
+
+notice("I should commit this before I change it.")
+```
+
+---
 
 ## Think
 
-``` {.r code-line-numbers="1-9|3-5|7-9"}
+```{.r}
 while (solving_problem) {
 
   if (old_language_works) {
@@ -140,19 +143,19 @@ while (solving_problem) {
 }
 ```
 
-------------------------------------------------------------------------
+---
 
 ## Dream
 
-``` {.r code-line-numbers="1"}
+```{.r}
 dream(in = "new language")
 ```
 
-------------------------------------------------------------------------
+---
 
 ## 
 
-``` {.r code-line-numbers="1|3-4|6"}
+```{.r}
 # I thought I was learning to code.
 
 # I was learning another language
