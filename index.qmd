@@ -1,6 +1,7 @@
 ---
-title: "Learning a New Language"
-subtitle: "ReproRehab Alumni"
+title: "ReproRehab Alumni Talk"
+subtitle: "Immersion"
+author: "Madeline Ratoza, PT, DPT, PhD"
 format:
   revealjs:
     theme: simple
@@ -8,11 +9,19 @@ format:
     slide-number: false
     controls: false
     progress: false
+    center: true
+    width: 1200
+    height: 700
+
+title-slide-attributes:
+  data-background-image: "title-background.png"
+  data-background-size: cover
+  data-background-position: center
 ---
 
 ## Listen
 
-```{.r}
+``` r
 hear("gin khao?")
 
 literal_meaning <- "Have you eaten?"
@@ -20,11 +29,11 @@ literal_meaning <- "Have you eaten?"
 meaning <- connection
 ```
 
----
+------------------------------------------------------------------------
 
 ## Translate
 
-```{.r}
+``` r
 translate("mai pen rai")
 
 # "no problem"
@@ -35,64 +44,14 @@ translate("mai pen rai")
 understand("mai pen rai")
 ```
 
----
-
-## Speak
-
-```{.r}
-while (!fluent) {
-
-  speak()
-  make_mistakes()
-  ask_questions()
-  practice()
-
-}
-```
-
----
-
-## Notice
-
-```{.r}
-sobremesa <- "time together at the table after a meal"
-
-describe_in_english(sobremesa)
-
-name_in_spanish(sobremesa)
-```
-
----
-
-## See Differently
-
-```{.r}
-english <- "I forgot it."
-
-spanish <- "Se me olvidó."
-
-# Same experience.
-# Differently structured.
-```
-
----
-
-## A New Language
-
-```{.r}
-translate("repository")
-translate("commit")
-translate("relative path")
-translate("function")
-```
-
----
+------------------------------------------------------------------------
 
 ## Practice
 
-```{.r}
+``` r
 repeat {
 
+  speak()
   try()
   make_mistakes()
   ask_questions()
@@ -101,21 +60,46 @@ repeat {
 }
 ```
 
----
+------------------------------------------------------------------------
+
+## Notice
+
+``` r
+sobremesa <- "time together at the table after a meal"
+
+describe_in_english(sobremesa)
+
+name_in_spanish(sobremesa)
+```
+
+------------------------------------------------------------------------
+
+## See Differently
+
+``` r
+english <- "I forgot it."
+
+spanish <- "Se me olvidó."
+
+# Same experience.
+# Differently structured.
+```
+
+------------------------------------------------------------------------
 
 ## Eventually...
 
-```{.r}
+``` r
 # You stop translating.
 
 think_in_reproducibility()
 ```
 
----
+------------------------------------------------------------------------
 
 ## Notice Differently
 
-```{.r}
+``` r
 notice("I'm doing this manually.")
 
 notice("I should document this.")
@@ -125,11 +109,11 @@ notice("Someone else should be able to reproduce this.")
 notice("I should commit this before I change it.")
 ```
 
----
+------------------------------------------------------------------------
 
 ## Think
 
-```{.r}
+``` r
 while (solving_problem) {
 
   if (old_language_works) {
@@ -143,23 +127,35 @@ while (solving_problem) {
 }
 ```
 
----
+------------------------------------------------------------------------
 
 ## Dream
 
-```{.r}
+``` r
 dream(in = "new language")
 ```
 
----
+------------------------------------------------------------------------
 
 ## 
 
 ```{.r}
-# I thought I was learning to code.
+> language <- detect(this_talk)
 
-# I was learning another language
-# to think in.
+> language
+[1] "not quite English"
+[2] "not quite R"
 
-possibilities <- Inf
+> compile(this_talk)
+Error: cannot compile
+
+> execute(this_talk)
+Error: cannot execute
+
+> experience(this_talk)
+[1] TRUE
+
+> maybe_thats_the_point
+[1] TRUE
 ```
+
