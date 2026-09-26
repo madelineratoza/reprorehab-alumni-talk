@@ -11,5 +11,11 @@ Built in **Quarto** because, well, that seemed appropriate.
 
 possibilities <- Inf
 
-[View the alumni talk](https://madelineratoza.github.io/reprorehab-alumni-talk/#/title-slide)
+# I thought I was learning to code.
+# I was learning another language
+# to think in.
+
+possibilities <- Inf
+
 ```
+[View the slides](https://madelineratoza.github.io/reprorehab-alumni-talk/#/title-slide)
