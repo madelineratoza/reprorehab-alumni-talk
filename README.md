@@ -11,5 +11,5 @@ Built in **Quarto** because, well, that seemed appropriate.
 
 possibilities <- Inf
 
-https://madelineratoza.github.io/reprorehab-alumni-talk/#/title-slide 
+[View the alumni talk](https://madelineratoza.github.io/reprorehab-alumni-talk/#/title-slide)
 ```
