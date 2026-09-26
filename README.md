@@ -10,4 +10,6 @@ Built in **Quarto** because, well, that seemed appropriate.
 # to think in.
 
 possibilities <- Inf
+
+https://madelineratoza.github.io/reprorehab-alumni-talk/#/title-slide 
 ```
